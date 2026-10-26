@@ -1,0 +1,4 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Callback</title>
+<body style="font-family:sans-serif;padding:24px"><h3>Tesla 로그인 완료</h3><p>아래 코드를 복사해서 봇에게 보내세요. (한 번만 쓰이고 몇 분 뒤 만료돼요)</p>
+<textarea id="c" rows="4" style="width:100%;font-size:16px" readonly></textarea>
+<script>var p=new URLSearchParams(location.search);document.getElementById('c').value=p.get('code')||'(코드가 없어요)';history.replaceState(null,'',location.pathname);</script></body>
